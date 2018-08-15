@@ -10,7 +10,7 @@ public class TestReflection2 {
                 TestReflection2.method1();
             }
         };
-        t1.setName("第一个线程");
+        t1.setName("第一个线程+改一改");
         t1.start();
          
         //保证第一个线程先调用method1
