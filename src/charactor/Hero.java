@@ -9,7 +9,7 @@ public class Hero {
     static String copyright;
  
     static {
-        System.out.println("初始化 copyright");
+        System.out.println("初始化 copyright + branch");
         copyright = "版权由Riot Games公司所有";
     }
  
